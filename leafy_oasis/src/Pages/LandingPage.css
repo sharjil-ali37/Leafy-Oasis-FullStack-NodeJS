@@ -3,7 +3,7 @@
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -13,13 +13,14 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    height: max-content;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
     width: auto;
     height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
+    /* z-index: 10; */
+    /* -ms-transform: translateX(-50%) translateY(-50%); */
+    /* -moz-transform: translateX(-50%) translateY(-50%); */
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
   }
@@ -63,3 +64,62 @@ header {
   
     transition: all;
 }
+
+
+
+
+/* Layout */
+.plants_outline{
+  
+  padding: 5%;
+  margin-top: -40px;
+  
+}
+.top_bar{
+    
+  /* border-style:groove;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0); */
+  height: 270px;
+  padding: 0%;
+}
+.top_bar_overlay{
+ position: relative;
+  height: 200px;
+  width: 150px;
+  margin-left: 70%;
+  margin-bottom: -150px;
+}
+.body_content{
+/*   
+  border-style:groove;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0); */
+  height: 135px;
+  padding: 0%;
+ 
+}
+
+.threeXthree{
+    
+  /* border-style:groove;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0); */
+  height: 90px;
+  padding: 0%
+}
+img {
+  max-width:100%;
+  max-height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+.bgfixed{
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Layout finished */

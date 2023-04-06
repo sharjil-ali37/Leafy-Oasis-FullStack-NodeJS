@@ -5,6 +5,8 @@ import Foot from './Components/Footer';
 import Card from './Components/Card';
 import LandingPage
  from './Pages/LandingPage';
+
+ import ParallaxScroll from './Components/ParallaxScroll';
 function App() {
   return (
     <div className="mydiv">
@@ -12,7 +14,8 @@ function App() {
       <LandingPage />
       
         <Card name="Plant1" description="A plartgnkerjg" link_text="CLick "/>
-      
+        {/* <Card name="Plant1" description="A plartgnkerjg" link_text="CLick "/> */}
+        <ParallaxScroll/>
 
 
 
