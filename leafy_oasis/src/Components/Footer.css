@@ -1,0 +1,16 @@
+.footer{
+    
+   
+    
+        height: 220px;
+        /* position: fixed; */
+        bottom: 0;
+        background: #201D1E;
+        padding: 10px 0;
+        width: 100%;
+    
+   
+}
+.footer h5{
+    color: rgb(244, 86, 255);
+}
