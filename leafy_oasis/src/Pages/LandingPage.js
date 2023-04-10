@@ -7,6 +7,7 @@ import plants1 from '../resources/plants1.jpg';
 import plants2 from '../resources/plants2.jpg';
 import plants3 from '../resources/plants3.jpg';
 import plants4 from '../resources/plants4.jpg';
+import ParallaxScroll from '../Components/ParallaxScroll';
 
 
 
@@ -104,7 +105,7 @@ function LandingPage(){
 
               
               </div>    
-          
+            <ParallaxScroll/>
         </>
 
 

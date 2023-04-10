@@ -7,13 +7,16 @@ import LandingPage
  from './Pages/LandingPage';
 
  import ParallaxScroll from './Components/ParallaxScroll';
+
+ import Search from './Pages/Search';
 function App() {
   return (
     <div className="mydiv">
-      <Navbar/>
-      <LandingPage />
+      {/* <Navbar/> */}
+      {/* <LandingPage /> */}
+      {/* <Search /> */}
       
-        <Card name="Plant1" description="A plartgnkerjg" link_text="CLick "/>
+       / {/* <Card name="Plant1" description="A plartgnkerjg" link_text="CLick "/> */}
         {/* <Card name="Plant1" description="A plartgnkerjg" link_text="CLick "/> */}
         <ParallaxScroll/>
 

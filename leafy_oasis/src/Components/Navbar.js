@@ -1,4 +1,6 @@
 import './Navbar.css';
+import { Outlet, Link } from "react-router-dom";
+
 
 function Navbar(){
     return(
@@ -14,8 +16,9 @@ function Navbar(){
 
     
     <ul id="menu">
-      <li><a href="#home">Home</a></li>
+      <li><Link  to="/">Home</Link></li>
       <li><a href="#services">Services</a></li>
+      <li><Link to="/search">Search</Link></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#login">Login</a></li>
@@ -34,12 +37,15 @@ function Navbar(){
 
 <div class="overlay-menu">
   <ul id="menu">
-      <li><a href="#home">Home</a></li>
+  <li><Link  to="/">Home</Link></li>
       <li><a href="#services">Services</a></li>
+      <li><Link to="/search">Search</Link></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-</div></>
+</div>
+<Outlet />
+</>
     )
 }
 

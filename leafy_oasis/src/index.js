@@ -4,10 +4,33 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Search from './Pages/Search';
+import Navbar from './Components/Navbar';
+import LandingPage from './Pages/LandingPage';
+import Foot from './Components/Footer';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Search/> */}
+  
+    {/* <LandingPage/> */}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          {/* <Route path="/home" element={<App />}/> */}
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/search" element={<Search />} />
+          {/* <Route path="contact" element={<Contact />} /> */}
+          {/* <Route path="*" element={<NoPage />} /> */}
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
+    <Foot/>
   </React.StrictMode>
 );
 
