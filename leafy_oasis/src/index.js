@@ -9,7 +9,7 @@ import Search from './Pages/Search';
 import Navbar from './Components/Navbar';
 import LandingPage from './Pages/LandingPage';
 import Foot from './Components/Footer';
-
+import Contact from './Pages/Contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +24,7 @@ root.render(
           {/* <Route path="/home" element={<App />}/> */}
           <Route path="/" element={<LandingPage />} />
           <Route path="/search" element={<Search />} />
-          {/* <Route path="contact" element={<Contact />} /> */}
+          <Route path="contact" element={<Contact />} />
           {/* <Route path="*" element={<NoPage />} /> */}
           
         </Route>

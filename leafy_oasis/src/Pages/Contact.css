@@ -1,0 +1,27 @@
+/* body{
+    background-color:rgb(199, 179, 179) ;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top:60px;
+} */
+.contact__form .form-control{
+    padding: 1.75em;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    
+    background-color: rgb(207, 206, 206);
+    border-radius: 0;
+    border:1px solid black ;
+}
+.contact__form input.form-control{
+    margin-bottom: 2em;
+    height:calc(2.5em+.75em+2px);
+}
+.btn{
+    color: black;
+    background-color: rgb(184, 181, 181);
+     border:1px solid;
+}
+.btn:hover{
+    color:black;
+}
