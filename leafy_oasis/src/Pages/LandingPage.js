@@ -12,7 +12,7 @@ function LandingPage(){
 
             <div class="container h-100">
               <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 text-white">
+                <div class="w-100 text-white cen">
                   <h1 class="display-4" style={{fontWeight:500, fontSize: 80}} >NURTURE YOUR</h1>
                   <h1 class="display-4" style={{fontWeight:700, fontSize: 100}} >NATURE BETTER</h1>
                   <p class="lead mb-0">LEAFY OASIS</p>
