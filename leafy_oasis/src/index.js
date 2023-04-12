@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Search from './Pages/Search';
 import Navbar from './Components/Navbar';
 import LandingPage from './Pages/LandingPage';
 import Foot from './Components/Footer';
+import Contact from './Pages/Contact';
 
 (function (d, m) {
   var kommunicateSettings = { "appId": "241d28984c4094d76743d6bb49c085435", "popupWidget": true, "automaticChatOpenOnNavigation": true };
@@ -22,9 +21,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    {/* <Search/> */}
-
-    {/* <LandingPage/> */}
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
@@ -37,9 +33,6 @@ root.render(
         </Route>
       </Routes>
     </BrowserRouter>
-
-
-
     <Foot />
 
   </React.StrictMode>

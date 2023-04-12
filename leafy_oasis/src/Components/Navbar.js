@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { Outlet, Link } from "react-router-dom";
+import logo2 from"../resources/logo2.jpg";
 
 
 function Navbar(){
@@ -7,10 +8,10 @@ function Navbar(){
         <>
         <nav id="navbar" class="">
   <div class="nav-wrapper">
-    
-
     <div class="logo">
-      
+      <a href="#home"><img class="web_logo"src={logo2}/></a>
+    </div>
+    <div class="logo">
       <a href="#home"><i class="fas fa-chess-knight"></i> LEAFY OASIS</a>
     </div>
 
@@ -27,15 +28,22 @@ function Navbar(){
     </ul>
   </div>
 </nav>
+ 
 
-
-<div class="menuIcon">
+<div class="menuIcon" onClick={ham}>
   <span class="icon icon-bars"></span>
   <span class="icon icon-bars overlay"></span>
 </div>
 
 
-<div class="overlay-menu">
+
+<Outlet />
+</>
+    )
+}
+function ham(){
+  return(
+    <div class="overlay-menu">
   <ul id="menu">
   <li><Link  to="/">Home</Link></li>
       <li><a href="#services">Services</a></li>
@@ -44,9 +52,8 @@ function Navbar(){
       <li><Link to="/contact">Contact</Link></li>
     </ul>
 </div>
-<Outlet />
-</>
-    )
+  )
+  
 }
 
 export default Navbar;

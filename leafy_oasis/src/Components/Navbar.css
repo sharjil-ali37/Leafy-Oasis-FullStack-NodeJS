@@ -17,7 +17,10 @@
     text-decoration: none;
   }
   
-  
+  .web_logo{
+    height: 120%;
+    float: left;
+  }
   /*======================================================
                             Navbar
     ======================================================*/
@@ -46,25 +49,22 @@
         }
       } 
   
-  
-  .logo {
-    float: left;
+  .logo a{
+    float:left;
     margin-left: 28px;
-    font-size: 1.5em;
+    font-size: 2.5em;
     height: 60px;
     letter-spacing: 1px;
     text-transform: uppercase;
-  } @media(max-width: 768px) {
-      .logo {
-  /*       margin-left: 5px; */
-      }
-    }
+    color:rgb(5, 152, 56);
+    text-decoration: none;
+  } 
   
   #navbar ul {
-    display: inline-block;
-    float: right;
+    /* display: inline-block; */
+    float:right;
     list-style: none;
-    /* margin-right: 14px; */
+    margin-right: 14px;
     margin-top: -2px;
     text-align: right;
     transition: transform 0.5s ease-out;
@@ -196,56 +196,7 @@
       transition: 0.3s width 0.4s;
     }
   
-    /* Bars Shadows */
-    .icon-bars.overlay {
-      background: rgb(97, 114, 129);
-      background: rgb(183, 199, 211);
-      width: 20px;
-      animation: middleBar 3s infinite 0.5s;
-      -webkit-animation: middleBar 3s infinite 0.5s;
-    } @keyframes middleBar {
-        0% {width: 0px}
-        50% {width: 20px}
-        100% {width: 0px}
-      } @-webkit-keyframes middleBar {
-          0% {width: 0px}
-          50% {width: 20px}
-          100% {width: 0px}
-        }
-  
-    .icon-bars.overlay::before {
-      background: rgb(97, 114, 129);
-      background: rgb(183, 199, 211);
-      width: 10px;
-      animation: topBar 3s infinite 0.2s;
-      -webkit-animation: topBar 3s infinite 0s;
-    } @keyframes topBar {
-        0% {width: 0px}
-        50% {width: 10px}
-        100% {width: 0px}
-      } @-webkit-keyframes topBar {
-          0% {width: 0px}
-          50% {width: 10px}
-          100% {width: 0px}
-        }
-  
-    .icon-bars.overlay::after {
-      background: rgb(97, 114, 129);
-      background: rgb(183, 199, 211);
-      width: 15px;
-      animation: bottomBar 3s infinite 1s;
-      -webkit-animation: bottomBar 3s infinite 1s;
-    } @keyframes bottomBar {
-        0% {width: 0px}
-        50% {width: 15px}
-        100% {width: 0px}
-      } @-webkit-keyframes bottomBar {
-          0% {width: 0px}
-          50% {width: 15px}
-          100% {width: 0px}
-        }
-  
-  
+
     /* Toggle Menu Icon */
     .menuIcon.toggle .icon-bars {
       top: 5px;
@@ -254,25 +205,6 @@
       transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
   
-    .menuIcon.toggle .icon-bars::before {
-      top: 0;
-      transition-delay: 0.1s;
-      opacity: 0;
-    }
-  
-    .menuIcon.toggle .icon-bars::after {
-      top: 10px;
-      transform: translate3d(0, -10px, 0) rotate(-270deg);
-      transition-delay: 0.1s;
-      transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-  
-    .menuIcon.toggle .icon-bars.overlay {
-      width: 20px;
-      opacity: 0;
-      -webkit-transition: all 0s ease 0s;
-      transition: all 0s ease 0s;
-    }
   }
   
   
