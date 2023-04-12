@@ -13,7 +13,7 @@ import Contact from './Pages/Contact';
 import Login from './Pages/Login';
 
 (function (d, m) {
-  var kommunicateSettings = { "appId": "241d28984c4094d76743d6bb49c085435", "popupWidget": true, "automaticChatOpenOnNavigation": true };
+  var kommunicateSettings = { "appId": "18c2ec3c69229e81cdc33650604d6157a", "popupWidget": true, "automaticChatOpenOnNavigation": true };
   var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
   s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
   var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
