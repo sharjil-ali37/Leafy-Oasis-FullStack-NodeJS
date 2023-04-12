@@ -31,7 +31,7 @@ root.render(
           {/* <Route path="/home" element={<App />}/> */}
           <Route path="/" element={<LandingPage />} />
           <Route path="/search" element={<Search />} />
-          {/* <Route path="contact" element={<Contact />} /> */}
+          <Route path="contact" element={<Contact />} />
           {/* <Route path="*" element={<NoPage />} /> */}
 
         </Route>
