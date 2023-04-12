@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Search from './Pages/Search';
 import Navbar from './Components/Navbar';
 import LandingPage from './Pages/LandingPage';
 import Foot from './Components/Footer';
+import Contact from './Pages/Contact';
+import Login from './Pages/Login';
 
 (function (d, m) {
   var kommunicateSettings = { "appId": "241d28984c4094d76743d6bb49c085435", "popupWidget": true, "automaticChatOpenOnNavigation": true };
@@ -31,13 +34,13 @@ root.render(
           {/* <Route path="/home" element={<App />}/> */}
           <Route path="/" element={<LandingPage />} />
           <Route path="/search" element={<Search />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/Login" element={<Login />} />
           {/* <Route path="*" element={<NoPage />} /> */}
 
         </Route>
       </Routes>
     </BrowserRouter>
-
 
 
     <Foot />
