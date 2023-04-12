@@ -3,25 +3,18 @@ import * as ReactDOM from 'react-dom';
 function Search(){
     return(
         <>
-            <form>
+            <div class="form_service">
                 <input type="file" multiple class=" btn-4" />
                 <button class="custom-btn btn-6" type="button" onClick={sendIdentification} ><span>OK</span></button>
-                {/* <button type="button" onClick={sendIdentification}>OK</button> */}
-            </form>
-            <div id="isPlant"></div>
-
+            </div>
 
             {/* GRID */}
 
             <div class="message">
                 Sorry, your browser does not support CSS Grid. 😅
             </div>
-            {/* <div  id="wiki_des">
-                               
-                            </div> */}
-
             <section class="section">
-                    <h1>Nom Nom Gallery</h1>
+                    {/* <h1>Nom Nom Gallery</h1> */}
                     <div class="grid">
                         <div class="item item--full" id="isPlantImage">
                             <div class="item__details" id="isPlant1"></div>
@@ -53,13 +46,6 @@ function Search(){
                                 Oat cake
                             </div>
                         </div>
-
-                        {/* <div class="item item--full">
-                            <div class="item__details">
-                                jujubes cheesecakeg
-                            </div>
-                        </div> */}
-
                         <div class="item item--medium">
                             <div class="item__details">
                                 Taxonomy
@@ -67,13 +53,6 @@ function Search(){
 
                             <div class="item__details" id="taxonomy"></div>
                         </div>
-
-                        {/* <div class="item item--large">
-                            <div class="item__details">
-                                Oat cake
-                            </div>
-                        </div> */}
-
                         <div class="item" id="similarImage1">
                             <div class="item__details" >
                                Similar Image 1
@@ -82,7 +61,7 @@ function Search(){
                     </div>
                 </section>
 
-{/* GRID */}
+            {/* GRID */}
         </>
     )
 }
@@ -99,14 +78,9 @@ function displayData(data){
     
     const sciName = data.suggestions[0].plant_details.plant_name;
 
-    // var p = document.createElement('p');
-    //         p ="edsfhjvwef" ;
-    //         document.getElementById('isPlantImage').appendChild(p);
-
     isPlantDiv1.innerHTML = "We recozgnized your plant";
     if(isPlant == true){
         isPlantDiv1.innerHTML = "We recozgnized your plant";
-        // plantName.innerHTML = "sdfgdsgdfg";
         isPlantImage1.style.backgroundImage = `url('${url}')`;
         document.getElementById("similarImage0").style.backgroundImage = `url('${url0}')`;
         document.getElementById("similarImage1").style.backgroundImage = `url('${url1}')`;
@@ -122,13 +96,6 @@ function displayData(data){
     document.getElementById('genusName').innerHTML = "Genus Name:" + data.suggestions[0].plant_details.structured_name.genus;
     document.getElementById('speciesName').innerHTML = "Species Name:" + data.suggestions[0].plant_details.structured_name.species;
     
-    // document.getElementById('commonNames').innerHTML = "Common Names: " + data.suggestions[0].plant_details.common_names;
-    // document.getElementById('taxonomy').innerHTML = "Taxonomy:" + JSON.stringify(data.suggestions[0].plant_details.taxonomy);
-    // document.getElementById('plantName').innerHTML = "Name:" + data.suggestions[0].plant_details.plant_name;
-    // document.getElementById('plantName').innerHTML = "Name:" + data.suggestions[0].plant_details.plant_name;
-
-
-
 //    printing the taxonomy in tabular form
     const obj = data.suggestions[0].plant_details.taxonomy;
     const rows = Object.entries(obj).map(([key, value]) => (
@@ -147,10 +114,8 @@ function displayData(data){
     );
     ReactDOM.render(table, document.getElementById('taxonomy'));
     
-
     // taxonomy finished
 
-   
         const myArray = data.suggestions[0].plant_details.common_names;
         const div = (
                     <div>
@@ -164,9 +129,6 @@ function displayData(data){
     }
 
 
-   
-
-
 function sendIdentification() {
     const files = [...document.querySelector('input[type=file]').files];
     const promises = files.map((file) => {
@@ -174,7 +136,6 @@ function sendIdentification() {
           const reader = new FileReader();
           reader.onload = (event) => {
             const res = event.target.result;
-            // document.innerHTML(res);
             console.log(res);
             resolve(res);
           }
@@ -188,10 +149,8 @@ function sendIdentification() {
       const data = {
         api_key: "CMkKR4yh2lieLNxsbbZtjTHj0g7jhq6ZmRcG8nPRfTQC9GdG0P",
         images: base64files,
-        // modifiers docs: https://github.com/flowerchecker/Plant-id-API/wiki/Modifiers
         modifiers: ["crops_fast", "similar_images"],
         plant_language: "en",
-        // plant details docs: https://github.com/flowerchecker/Plant-id-API/wiki/Plant-details
         plant_details: ["common_names",
                         "url",
                         "name_authority",
@@ -216,61 +175,5 @@ function sendIdentification() {
         console.error('Error:', error);
       });
     })
-  
 };
-
-
 export default Search;
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <div class="item item--medium">
-                            <div class="item__details">
-                                pudding cheesecake
-                            </div>
-                        </div>
-
-                        <div class="item item--large">
-                            <div class="item__details">
-                                toffee bear claw 
-                            </div>
-                        </div> */}
-
-                        {/* <div class="item">
-                            <div class="item__details">
-                                cake cookie croissant
-                            </div>
-                        </div>
-
-                        <div class="item item--medium">
-                            <div class="item__details">
-                                liquorice sweet roll
-                            </div>
-                        </div>
-
-                        <div class="item item--medium">
-                            <div class="item__details">
-                                chocolate marzipan
-                            </div>
-                        </div>
-
-                        <div class="item item--large">
-                            <div class="item__details">
-                                danish dessert lollipop
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="item__details">
-                                sugar plum dragée
-                            </div>
-                    </div> */}

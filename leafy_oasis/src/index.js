@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Search from './Pages/Search';
@@ -11,6 +9,7 @@ import Navbar from './Components/Navbar';
 import LandingPage from './Pages/LandingPage';
 import Foot from './Components/Footer';
 import Contact from './Pages/Contact';
+
 import Login from './Pages/Login';
 
 (function (d, m) {
@@ -25,9 +24,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    {/* <Search/> */}
-
-    {/* <LandingPage/> */}
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
@@ -41,7 +37,6 @@ root.render(
         </Route>
       </Routes>
     </BrowserRouter>
-
 
     <Foot />
 

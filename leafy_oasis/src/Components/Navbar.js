@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { Outlet, Link } from "react-router-dom";
+import logo2 from"../resources/logo2.jpg";
 
 
 function Navbar() {
@@ -47,7 +48,7 @@ function Navbar() {
       </div>
       <Outlet />
     </>
-  )
+)
 }
 
 export default Navbar;
