@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.7adbc9b0.css",
+    "main.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.bf65da0e.js",
+    "static/js/787.17dba3cd.chunk.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/787.17dba3cd.chunk.js",
+    "static/media/lavender_video.mp4": "/Leafy-Oasis-FullStack-NodeJS/static/media/lavender_video.637404989fb7a0e656db.mp4",
+    "static/media/logo2.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/logo2.dd906738eb0b89fc9e54.jpg",
+    "index.html": "/Leafy-Oasis-FullStack-NodeJS/index.html",
+    "main.7adbc9b0.css.map": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.7adbc9b0.css.map",
+    "main.bf65da0e.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.bf65da0e.js.map",
+    "787.17dba3cd.chunk.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/787.17dba3cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7adbc9b0.css",
+    "static/js/main.bf65da0e.js"
+  ]
+}
