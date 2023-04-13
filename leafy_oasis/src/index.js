@@ -11,6 +11,7 @@ import Foot from './Components/Footer';
 import Contact from './Pages/Contact';
 
 import Login from './Pages/Login';
+import App from './App';
 
 (function (d, m) {
   var kommunicateSettings = { "appId": "18c2ec3c69229e81cdc33650604d6157a", "popupWidget": true, "automaticChatOpenOnNavigation": true };
@@ -24,21 +25,19 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <App/>
+    {/* <HashRouter>
       <Routes>
-        <Route path="/" element={<Navbar />}>
-          {/* <Route path="/home" element={<App />}/> */}
+        <Route path="/" element={<Navbar />}> 
           <Route path="/" element={<LandingPage />} />
           <Route path="/search" element={<Search />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Login" element={<Login />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
-
         </Route>
       </Routes>
     </HashRouter>
 
-    <Foot />
+    <Foot /> */}
 
   </React.StrictMode>
 );

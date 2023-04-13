@@ -1,29 +1,32 @@
 import './App.css';
 import Foot from './Components/Footer';
 
-import KommunicateChat from './Components/Chatbot';
-
-
-import ParallaxScroll from './Components/ParallaxScroll';
-
 import Search from './Pages/Search';
 import Login from './Pages/Login';
 
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import Navbar from './Components/Navbar';
+import LandingPage from './Pages/LandingPage';
+import Contact from './Pages/Contact';
+
+
+
 function App() {
   return (
-    <div className="mydiv">
-     
-      <ParallaxScroll />
+    <>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}> 
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/services" element={<Search />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/Login" element={<Login />} />
+        </Route>
+      </Routes>
+    </HashRouter>
 
-
-      {/* <div><KommunicateChat /></div> */}
-
-
-      <div><KommunicateChat /></div>
-    {/* <Login/> */}
-
-      <Foot />
-    </div>
+    <Foot />     
+    </>
   )
 }
 
