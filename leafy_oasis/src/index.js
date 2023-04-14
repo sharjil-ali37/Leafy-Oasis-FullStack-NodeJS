@@ -41,12 +41,12 @@ root.render(
           {/* <Route path="*" element={<NoPage />} /> */}
           
 
-          <Route path="/Login" element={<Login />} />
+          {/* <Route path="/Login" element={<Login />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </HashRouter> */}
 
-    <Foot /> */}
+    {/* <Foot /> */} 
 
   </React.StrictMode>
 );

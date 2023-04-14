@@ -30,12 +30,10 @@ function Navbar() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/services">Services</Link></li>
             {/* <li><Link to="/search">Search</Link></li> */}
-            <li><a href="#about">About</a></li>
+            <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
             <li><Link to="/Login">Login/SignUp</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            {/* <li><a href="#login">Login</a></li> */}
-            {/* <li><a href="#signup">Sign Up</a></li> */}
+           
 
           </ul>
         </div>
