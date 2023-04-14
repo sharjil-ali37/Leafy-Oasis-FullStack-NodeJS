@@ -10,6 +10,9 @@ import LandingPage from './Pages/LandingPage';
 import Foot from './Components/Footer';
 import Contact from './Pages/Contact';
 
+import About from './Pages/About';
+
+
 import Login from './Pages/Login';
 import App from './App';
 
@@ -20,6 +23,7 @@ import App from './App';
   var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
   window.kommunicate = m; m._globals = kommunicateSettings;
 })(document, window.kommunicate || {});
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -32,6 +36,11 @@ root.render(
           <Route path="/" element={<LandingPage />} />
           <Route path="/search" element={<Search />} />
           <Route path="/contact" element={<Contact />} />
+
+          <Route path="/about" element={<About />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+          
+
           <Route path="/Login" element={<Login />} />
         </Route>
       </Routes>

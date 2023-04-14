@@ -33,6 +33,7 @@ function Navbar() {
             <li><a href="#about">About</a></li>
             <li><Link to="/contact">Contact</Link></li>
             <li><Link to="/Login">Login/SignUp</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
             {/* <li><a href="#login">Login</a></li> */}
             {/* <li><a href="#signup">Sign Up</a></li> */}
 
@@ -67,8 +68,6 @@ function toggle(){
 
       let menuIcon = document.querySelector('.menuIcon');
       let nav = document.querySelector('.overlay-menu');
-
-    
           if (nav.style.transform != 'translateX(0%)') {
               nav.style.transform = 'translateX(0%)';
               nav.style.transition = 'transform 0.2s ease-out';
@@ -87,6 +86,6 @@ function toggle(){
               toggleIcon.className = 'menuIcon';
           }
       
-  
+ 
 }
 
