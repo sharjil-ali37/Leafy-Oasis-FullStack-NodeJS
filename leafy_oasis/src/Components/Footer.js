@@ -1,16 +1,19 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Footer.css'
+import '../App.css'
+import logo2 from "../resources/logo2.jpg" 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Foot(){
     return(
 
         <div class="border-top pt-4  pt-md-5 bg footer">
         <div class="row">
-                  <div class="col-md" style={{margin_left: 3}}>
-                            <img class="mb-2"    src="img_logo.png" alt="logo" height="50" width="50"/>
-                            <small class="d-block text-muted">Rejuvenating Your Home</small>
-
+                  <div class="col-md mar">
+                            <img class="mb-2 footer_logo"    src={logo2} alt="logo"/>
+                            <small class="d-block text-muted">REDEFINIG YOUR NATURE</small>
+                            
                   </div>
 
                   <div class="col-md">
@@ -52,40 +55,53 @@ function Foot(){
                               <li><a href="#" class="text-muted">Locations</a></li>
                               <li><a href="#" class="text-muted">Privacy</a></li>
                               <li><a href="#" class="text-muted">Terms</a></li>
+                              <FontAwesomeIcon icon="fa-brands fa-facebook" beat /> 
+                              dsf
 
                     </ul>
                   </div>
           </div>
           {/* <hr style="border: 10px solid white; border-radius: 5px; width: 80%; margin: auto;"/> */}
           <br/>
-          <div class="row" style={{text_align: "center", width: 25, }}>
+          {/* <div class="social">
+                            <a href="#">
+                            <i class="fa fa-facebook"/> 
+                            </a>
+                            <a href="#">
+                              <i class="fa fa-twitter icon"></i>
+                            </a>
+                            <a href="#">
+                              <i class="fa fa-instagram icon"></i>
+                            </a>
+                          </div> */}
+          <div class="row social-icons" >
             <div class="col-md">
-              <button class="btn"> <i class="bi bi-github"></i> </button>
+              <button class="btn"> <i class="fa fa-github"></i> </button>
               
             </div>
             <div class="col-md">
               <button class="btn">
-              <i class="bi bi-linkedin"></i>
+              <i class="fa fa-linkedin"></i>
             </button>
             </div>
             <div class="col-md">
               <button class="btn">
-              <i class="bi bi-twitter"></i>
+              <i class="fa fa-twitter"></i>
             </button>
             </div>
             <div class="col-md">
               <button class="btn">
-              <i class="bi bi-facebook"></i>
+              <i class="fa fa-facebook"></i>
             </button>
             </div>
             <div class="col-md">
               <button class="btn">
-              <i class="bi bi-instagram"></i>
+              <i class="fa fa-instagram"></i>
             </button>
             </div>
           </div>
 
-          {/* <hr style=" width: 50%; margin: auto;"/> */}
+          <hr/>
           
           <br/>
         <div/>
