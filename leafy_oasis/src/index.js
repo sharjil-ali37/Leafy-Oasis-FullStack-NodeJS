@@ -11,10 +11,10 @@ import Foot from './Components/Footer';
 import Contact from './Pages/Contact';
 
 import About from './Pages/About';
-
+import App from './App';
 
 import Login from './Pages/Login';
-import App from './App';
+
 
 (function (d, m) {
   var kommunicateSettings = { "appId": "18c2ec3c69229e81cdc33650604d6157a", "popupWidget": true, "automaticChatOpenOnNavigation": true };
@@ -29,6 +29,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
+    
     <App/>
     {/* <HashRouter>
       <Routes>

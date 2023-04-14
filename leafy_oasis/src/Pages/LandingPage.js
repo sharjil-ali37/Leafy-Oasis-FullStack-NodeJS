@@ -3,6 +3,7 @@ import lavender_video from '../resources/lavender_video.mp4';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ParallaxScroll from '../Components/ParallaxScroll';
 
+
 function LandingPage(){
     return(
         <>
@@ -21,6 +22,7 @@ function LandingPage(){
             </div>
           </header>     
           <ParallaxScroll/>
+          
         </>
     )
 }

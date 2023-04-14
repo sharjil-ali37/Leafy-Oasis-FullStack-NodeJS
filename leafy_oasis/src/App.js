@@ -12,6 +12,7 @@ import About from './Pages/About';
 
 
 
+
 function App() {
   return (
     <>
@@ -26,7 +27,7 @@ function App() {
         </Route>
       </Routes>
     </HashRouter>
-
+    
     <Foot />     
     </>
   )
