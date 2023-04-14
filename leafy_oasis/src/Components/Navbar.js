@@ -19,7 +19,7 @@ function Navbar(){
       <li><Link  to="/">Home</Link></li>
       <li><a href="#services">Services</a></li>
       <li><Link to="/search">Search</Link></li>
-      <li><a href="#about">About</a></li>
+      <li><Link to="/about">About</Link></li>
       <li><Link to="/contact">Contact</Link></li>
       <li><a href="#login">Login</a></li>
       <li><a href="#signup">Sign Up</a></li>
@@ -40,7 +40,7 @@ function Navbar(){
   <li><Link  to="/">Home</Link></li>
       <li><a href="#services">Services</a></li>
       <li><Link to="/search">Search</Link></li>
-      <li><a href="#about">About</a></li>
+      <li><Link to="/about">About</Link></li>
       <li><Link to="/contact">Contact</Link></li>
     </ul>
 </div>

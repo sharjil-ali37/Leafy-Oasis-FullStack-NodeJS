@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/potted-plant-doodle-vector-background_53876-126321.jpg?w=2000 );
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaftF9LoJWNR_UK3zjvzBMfK4c-jod2HUJjw&usqp=CAU); */
+    height: fit-content;
+    width: fit-content;
+}
+.about-container{
+    margin:4rem 6rem;
+    text-align: start;
+}
+.about-container h1{
+    padding-bottom: 1rem;
+}
+.about-container p{
+    padding-bottom: 2rem;
+}
+@media screen and(max-width : 850px){
+    .about-container{
+        margin: 4rem 2rem;
+    }
+}

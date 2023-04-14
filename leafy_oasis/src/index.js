@@ -10,8 +10,7 @@ import Navbar from './Components/Navbar';
 import LandingPage from './Pages/LandingPage';
 import Foot from './Components/Footer';
 import Contact from './Pages/Contact';
-
-
+import About from './Pages/About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -24,7 +23,8 @@ root.render(
           {/* <Route path="/home" element={<App />}/> */}
           <Route path="/" element={<LandingPage />} />
           <Route path="/search" element={<Search />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
           {/* <Route path="*" element={<NoPage />} /> */}
           
         </Route>
