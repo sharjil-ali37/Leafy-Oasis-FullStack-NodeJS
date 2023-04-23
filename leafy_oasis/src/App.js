@@ -1,16 +1,12 @@
 import './App.css';
 import Foot from './Components/Footer';
-
 import Search from './Pages/Search';
 import Login from './Pages/Login';
-
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import LandingPage from './Pages/LandingPage';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
-
-
 
 
 function App() {

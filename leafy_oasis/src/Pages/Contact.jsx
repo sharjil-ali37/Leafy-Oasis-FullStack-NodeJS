@@ -4,7 +4,8 @@ import './Contact.css';
 const Contact =()=> {
   
     return(
-      <Container>
+      <div class="divOuter">
+      <Container >
         <Row className="nb-5 mt-3">
           <Col lg='8'>
             <h1 className="display-4 mb-4">
@@ -65,6 +66,7 @@ const Contact =()=> {
           </Col>
         </Row>
       </Container>
+      </div>
    
     );
 };

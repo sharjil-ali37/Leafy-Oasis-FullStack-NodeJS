@@ -2,7 +2,7 @@ import './Search.css'
 import * as ReactDOM from 'react-dom';
 function Search(){
     return(
-        <>
+        <div class="divOuter">
             <div class="form_service">
                 <input type="file" multiple class=" btn-4" />
                 <button class="custom-btn btn-6" type="button" onClick={sendIdentification} ><span>OK</span></button>
@@ -59,10 +59,10 @@ function Search(){
                             </div>
                         </div>
                     </div>
-                </section>
+            </section>
 
             {/* GRID */}
-        </>
+        </div>
     )
 }
 

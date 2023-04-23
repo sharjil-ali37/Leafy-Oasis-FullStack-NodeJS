@@ -2,7 +2,7 @@ import React from "react";
 import './About.css';
 function About(){
     return(
-       <div className="about-container">
+       <div className="about-container " class="divOuter">
         <h1>Mission</h1>
         <p> At our plant website, our mission is to provide reliable and comprehensive information about various plants and their care to help our visitors make informed decisions about their gardening needs. We strive to be a trusted source of knowledge and inspiration for plant enthusiasts, beginners, and experts alike.
 Our goal is to offer a user-friendly platform that makes it easy to browse and discover new plants, learn about their unique characteristics and growing requirements, and connect with a community of like-minded individuals who share a passion for gardening.

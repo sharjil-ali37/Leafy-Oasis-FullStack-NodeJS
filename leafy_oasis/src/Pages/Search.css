@@ -1,4 +1,7 @@
-  button {
+  .divOuter{
+    margin-top: 100px;
+  }
+button {
     margin: 20px;
   }
   .custom-btn {
