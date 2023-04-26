@@ -1,17 +1,36 @@
 {
   "files": {
-    "main.css": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.72afc7bd.css",
-    "main.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.6594f327.js",
+    "main.css": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.9b895a52.css",
+    "main.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.959b8134.js",
     "static/js/787.17dba3cd.chunk.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/787.17dba3cd.chunk.js",
     "static/media/lavender_video.mp4": "/Leafy-Oasis-FullStack-NodeJS/static/media/lavender_video.637404989fb7a0e656db.mp4",
+    "static/media/pink.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/pink.bff0fb8cb83b13e720bd.jpg",
+    "static/media/blue.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/blue.8e1c0305274ead982f06.jpg",
+    "static/media/purple.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/purple.ee9507d74774542fcf91.jpg",
+    "static/media/red1.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/red1.23caaf0036e0860152b6.jpg",
+    "static/media/white1.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/white1.8676c37e0b1cb8980680.jpg",
+    "static/media/gold.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/gold.4ec9e81dbcb23fe22288.jpg",
+    "static/media/c.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/c.ceda0af79d1b87a1bc01.jpg",
+    "static/media/f.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/f.5e4ae269216d9a8fbc7b.jpg",
+    "static/media/b.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/b.e2f8000096885dd5a433.jpg",
+    "static/media/g.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/g.41d330bfd34e29d09695.jpg",
+    "static/media/cred.png": "/Leafy-Oasis-FullStack-NodeJS/static/media/cred.7deb8696eb392e80a85d.png",
+    "static/media/e.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/e.82b19416298f15855e46.jpg",
+    "static/media/h.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/h.e29dac1ae19e83ce8bc8.jpg",
+    "static/media/d.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/d.092eeb1bedf0f58aba45.jpg",
+    "static/media/a.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/a.e79f17b2424abf9510ca.jpg",
     "static/media/logo2.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/logo2.dd906738eb0b89fc9e54.jpg",
+    "static/media/slick.svg": "/Leafy-Oasis-FullStack-NodeJS/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Leafy-Oasis-FullStack-NodeJS/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Leafy-Oasis-FullStack-NodeJS/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Leafy-Oasis-FullStack-NodeJS/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Leafy-Oasis-FullStack-NodeJS/index.html",
-    "main.72afc7bd.css.map": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.72afc7bd.css.map",
-    "main.6594f327.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.6594f327.js.map",
+    "main.9b895a52.css.map": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.9b895a52.css.map",
+    "main.959b8134.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.959b8134.js.map",
     "787.17dba3cd.chunk.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/787.17dba3cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72afc7bd.css",
-    "static/js/main.6594f327.js"
+    "static/css/main.9b895a52.css",
+    "static/js/main.959b8134.js"
   ]
 }
