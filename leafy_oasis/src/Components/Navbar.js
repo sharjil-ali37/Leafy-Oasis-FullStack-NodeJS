@@ -8,7 +8,7 @@ function Navbar() {
   const [scroll, setScroll] = useState(false)
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 600)
+      setScroll(window.scrollY > 100)
     })
   }, [])
   return (

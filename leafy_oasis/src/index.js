@@ -2,18 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
-import Search from './Pages/Search';
-import Navbar from './Components/Navbar';
-import LandingPage from './Pages/LandingPage';
-import Foot from './Components/Footer';
-import Contact from './Pages/Contact';
-
-import About from './Pages/About';
 import App from './App';
-
-import Login from './Pages/Login';
 
 
 (function (d, m) {
@@ -31,25 +20,7 @@ root.render(
   <React.StrictMode>
     
     <App/>
-    {/* <HashRouter>
-      <Routes>
-        <Route path="/" element={<Navbar />}> 
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/search" element={<Search />} />
-          <Route path="/contact" element={<Contact />} />
-
-          <Route path="/about" element={<About />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
-          
-
-          {/* <Route path="/Login" element={<Login />} />
-        </Route>
-      </Routes>
-    </HashRouter> */}
-
-    {/* <Foot /> */} 
-
-  </React.StrictMode>
+    </React.StrictMode>
 );
 
 

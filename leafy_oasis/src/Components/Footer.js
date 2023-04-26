@@ -48,53 +48,30 @@ function Foot(){
 
                             </ul>
                   </div>
-                  <div class="col-md">
-                    <h5>About</h5>
-                    <ul class="list-unstyled">
-                              <li><a href="#" class="text-muted">Team</a></li>
-                              <li><a href="#" class="text-muted">Locations</a></li>
-                              <li><a href="#" class="text-muted">Privacy</a></li>
-                              <li><a href="#" class="text-muted">Terms</a></li>
-                              <FontAwesomeIcon icon="fa-brands fa-facebook" beat /> 
-                              dsf
-
-                    </ul>
-                  </div>
+                  
           </div>
-          {/* <hr style="border: 10px solid white; border-radius: 5px; width: 80%; margin: auto;"/> */}
-          <br/>
-          {/* <div class="social">
-                            <a href="#">
-                            <i class="fa fa-facebook"/> 
-                            </a>
-                            <a href="#">
-                              <i class="fa fa-twitter icon"></i>
-                            </a>
-                            <a href="#">
-                              <i class="fa fa-instagram icon"></i>
-                            </a>
-                          </div> */}
+        
           <div class="row social-icons" >
-            <div class="col-md">
-              <button class="btn"> <i class="fa fa-github"></i> </button>
+            <div class="col">
+              <button class=" btnBg btn "> <i class="fa fa-github"></i> </button>
               
             </div>
-            <div class="col-md">
+            <div class="col">
               <button class="btn">
               <i class="fa fa-linkedin"></i>
             </button>
             </div>
-            <div class="col-md">
+            <div class="col">
               <button class="btn">
               <i class="fa fa-twitter"></i>
             </button>
             </div>
-            <div class="col-md">
+            <div class="col">
               <button class="btn">
               <i class="fa fa-facebook"></i>
             </button>
             </div>
-            <div class="col-md">
+            <div class="col">
               <button class="btn">
               <i class="fa fa-instagram"></i>
             </button>
