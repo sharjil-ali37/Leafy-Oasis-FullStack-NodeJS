@@ -1,5 +1,7 @@
 import './Search.css'
 import * as ReactDOM from 'react-dom';
+
+
 function Search(){
     return(
         <div class="divOuter">
@@ -16,6 +18,23 @@ function Search(){
             <section class="section">
                     {/* <h1>Nom Nom Gallery</h1> */}
                     <div class="grid">
+                    <div class="item item--full">
+                            <div style={{fontWeight:500, fontSize: 60, color:"aliceblue", textAlign:'center', zIndex:5}} > HOW TO USE</div>
+                            <div style={{height: 10, backgroundColor:'white'}} ></div>
+                           <p>
+                                {/* <img src={cred}/> */}
+
+                                <h2>Let's get started</h2>
+                                    <p class="heading11">Click on choose files to upload your images and click on OK to display the results.
+                                        The blocks below will be updated with respective results found in our API.</p>
+                                <div class="cent">
+                                    
+                                    {/* <button class="custom-btn7 btn-7"><span>SIGN UP</span></button> */}
+                                    
+                                </div>
+                            
+                           </p>
+                        </div>
                         <div class="item item--full" id="isPlantImage">
                             <div class="item__details" id="isPlant1"></div>
                             <div class="item__details" id="plantName"></div>

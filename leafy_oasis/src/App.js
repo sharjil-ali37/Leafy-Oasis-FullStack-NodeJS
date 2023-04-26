@@ -13,6 +13,7 @@ function App() {
   return (
     <>
     <HashRouter>
+      {/* <LandingPage/> */}
       <Routes>
         <Route path="/" element={<Navbar />}> 
           <Route path="/" element={<LandingPage />} />

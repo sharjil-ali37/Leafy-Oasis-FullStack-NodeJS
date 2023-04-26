@@ -302,3 +302,16 @@ h1 {
 .container th:nth-child(4) { display: none; }
 }
 /* TABLE DONE */
+.heading11{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: 0.9;
+  text-shadow: #f2f2f2;
+}
