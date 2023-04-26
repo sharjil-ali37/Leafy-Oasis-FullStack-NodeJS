@@ -2,6 +2,8 @@ import './LandingPage.css';
 import lavender_video from '../resources/lavender_video.mp4';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ParallaxScroll from '../Components/ParallaxScroll';
+import Carousel from '../Components/carousel';
+import Card from '../Components/Card';
 
 
 function LandingPage(){
@@ -22,7 +24,9 @@ function LandingPage(){
             </div>
           </header>     
           <ParallaxScroll/>
-          
+          <Card></Card>
+      
+        <Carousel />
         </>
     )
 }
