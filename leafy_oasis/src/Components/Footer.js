@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 import logo2 from "../resources/logo2.jpg" 
 
+// import 'b'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Foot(){

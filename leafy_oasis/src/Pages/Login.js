@@ -4,13 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 
 
-
+import validator from "validator";
 import {  signInWithEmailAndPassword   } from 'firebase/auth';
 import { auth } from '../Firebase/Firebase';
 import { NavLink, useNavigate } from 'react-router-dom'
 
 
 import {  createUserWithEmailAndPassword  } from 'firebase/auth';
+
+import Navbar from '../Components/Navbar';
 
 
 function Login() {
@@ -23,17 +25,22 @@ function Login() {
     const [password, setPasswordSignUp] = useState('');
        
     const onLogin = (e) => {
+         
+
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-            // Signed in
+    
             const user = userCredential.user;
             navigate("/")
+            Navbar.a = {email}
             console.log(user);
+
         })
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
+            alert(errorCode, errorMessage);
             console.log(errorCode, errorMessage)
         });
        
@@ -44,18 +51,21 @@ function Login() {
  
     const onSubmit = async (e) => {
       e.preventDefault()
-     
+    
+
+
       await createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-            // Signed in
             const user = userCredential.user;
             console.log(user);
+            alert("Signed Up SuccessFully. Proceed to Login!")
             navigate("/login")
-            // ...
+            
         })
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
+            alert(errorCode, errorMessage);
             console.log(errorCode, errorMessage);
             // ..
         });

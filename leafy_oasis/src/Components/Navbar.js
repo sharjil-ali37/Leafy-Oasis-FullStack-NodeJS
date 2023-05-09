@@ -4,7 +4,7 @@ import logo2 from"../resources/logo2.jpg";
 import React, { useEffect, useState } from "react";
 
 function Navbar() {
-
+  const a ="LOGIN / SIGN UP"
   const [scroll, setScroll] = useState(false)
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -32,7 +32,7 @@ function Navbar() {
             {/* <li><Link to="/search">Search</Link></li> */}
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/Login">Login/SignUp</Link></li>
+            <li><Link to="/Login">{a}</Link></li>
            
 
           </ul>
