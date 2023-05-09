@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.1fc4dd9d.css",
-    "main.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.45cb588a.js",
+    "main.css": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.74a1a161.css",
+    "main.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.448760b7.js",
     "static/js/787.17dba3cd.chunk.js": "/Leafy-Oasis-FullStack-NodeJS/static/js/787.17dba3cd.chunk.js",
     "static/media/lavender_video.mp4": "/Leafy-Oasis-FullStack-NodeJS/static/media/lavender_video.637404989fb7a0e656db.mp4",
     "static/media/pink.jpg": "/Leafy-Oasis-FullStack-NodeJS/static/media/pink.bff0fb8cb83b13e720bd.jpg",
@@ -25,12 +25,12 @@
     "static/media/slick.ttf": "/Leafy-Oasis-FullStack-NodeJS/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Leafy-Oasis-FullStack-NodeJS/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Leafy-Oasis-FullStack-NodeJS/index.html",
-    "main.1fc4dd9d.css.map": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.1fc4dd9d.css.map",
-    "main.45cb588a.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.45cb588a.js.map",
+    "main.74a1a161.css.map": "/Leafy-Oasis-FullStack-NodeJS/static/css/main.74a1a161.css.map",
+    "main.448760b7.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/main.448760b7.js.map",
     "787.17dba3cd.chunk.js.map": "/Leafy-Oasis-FullStack-NodeJS/static/js/787.17dba3cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fc4dd9d.css",
-    "static/js/main.45cb588a.js"
+    "static/css/main.74a1a161.css",
+    "static/js/main.448760b7.js"
   ]
 }
